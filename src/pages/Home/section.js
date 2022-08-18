@@ -8,15 +8,6 @@ import Typist from "react-typist";
 // Import  Images
 import rocket from "../../assets/images/home/portada2.jpg";
 
-fetch('http://localhost:1337/api/homes', {
-  method: 'GET',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-})
-  .then(response => response.json())
-  .then(data => console.log(data));
-
 
 class Section extends Component {
     render() {

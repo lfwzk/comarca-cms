@@ -34,7 +34,7 @@ class ThemeSwitcher extends Component {
             </a>
             <a
               href="http://landrick.react-dark.themesbrand.com"
-              className="btn btn-sm w-100 btn-primary mt-2"
+              className="btn btn-sm w-100 btn-danger mt-2"
             >
               Dark
             </a>

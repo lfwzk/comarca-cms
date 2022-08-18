@@ -27,7 +27,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                       rel="noopener noreferrer"
                       className="text-success"
                     >
-                      Themesbrand
+                      COMARCA 
                     </a>
                     .
                   </p>

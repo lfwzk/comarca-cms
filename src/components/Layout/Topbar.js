@@ -14,7 +14,7 @@ import {
 
 //Import images
 // import logodark from "../../assets/images/logo-dark.png";
-import logodark from "../../assets/images/home/logo1.png";
+import logodark from "../../assets/images/home/cw11.png";
 import logolight from "../../assets/images/logo-light.png";
 import shop1 from "../../assets/images/shop/product/s-1.jpg";
 import shop2 from "../../assets/images/shop/product/s-2.jpg";

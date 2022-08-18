@@ -49,6 +49,12 @@ class IndexMain extends Component {
               {/* Home Section */}
                 <Section/>
 
+                {/* HowItWorks */}
+                <HowItWorks />
+
+
+                {/* Testi */}
+                <Testi />
                 {/* Partner */}
                 <section className="py-4 border-bottom border-top">
                     <Container>
@@ -56,14 +62,10 @@ class IndexMain extends Component {
                     </Container>
                 </section>
 
-                {/* HowItWorks */}
-                <HowItWorks />
-
-                {/* Testi */}
-                <Testi />
-
                 {/* Pricing */}
                 <Pricing />
+                 
+               
                 <div className="position-relative">
                     <div className="shape overflow-hidden text-light">
                         <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -29,12 +29,12 @@ class HowItWorks extends Component {
     super(props);
     this.state = {
       features: [
-        { title: "Digital Marketing Solutions for Tomorrow" },
-        { title: "Our Talented & Experienced Marketing Agency" },
-        { title: "Create your own skin to match your brand" },
+        { title: "Somos un cowork" },
+        { title: "Unete a nosotros" },
+        { title: "somos Comarca" },
       ],
       features1: [
-        { title: "Digital Marketing Solutions for Tomorrow" },
+        { title: "Jelow" },
         { title: "Our Talented & Experienced Marketing Agency" },
         { title: "Create your own skin to match your brand" },
       ],
@@ -53,10 +53,10 @@ class HowItWorks extends Component {
         <section className="section bg-light border-bottom">
           <Container>
             {/* render Section title */}
-            <SectionTitle
+            {/* <SectionTitle
               title="How It Work HOWIT WORK JS ES?"
               desc=" that can provide everything you need to generate awareness, drive traffic, connect."
-            />
+            /> */}
 
             <Row className="align-items-center">
               <Col lg="5" md="6" className="mt-4 pt-2">
@@ -66,12 +66,12 @@ class HowItWorks extends Component {
               <Col lg="7" md="6" className="mt-4 pt-2">
                 <div className="section-title ms-lg-5">
                   <SectionTitleLeft
-                    title="Change the way you build HOWIT WORK JS ES "
-                    desc="You can combine all the CO MARCAtemplates into a single one, you can take a component from the Application theme and use it in the Website."
+                    title="SOMOS UNA COMUNIDAD MULTIDISCIPLINARIA"
+                    desc="Es una comunidad multidisciplinaria de profesionales que trabajamos en conjunto para ofrecer soluciones integrales a nuestros clientes."
                     features={this.state.features}
                     class=""
                   />
-                  <Link to="#" className="mt-3 h6 text-primary">
+                  <Link to="/" className="mt-3 h6 text-danger">
                     Find Out More <i className="uil uil-angle-right-b align-middle"></i>
                   </Link>
                 </div>
@@ -89,16 +89,16 @@ class HowItWorks extends Component {
               >
                 <div className="section-title">
                   <SectionTitleLeft
-                    desc="Using CO MARCAto build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier."
+                    desc="HOLA JIJIJIJIJII"
                     features={this.state.features1}
                     class=""
                   >
                     <h4 className="title mb-4">
-                      Speed up your development <br /> with{" "}
-                      <span className="text-primary">CO MARCA .</span>
+                     Empieza con <br /> {" "}
+                      <span className="text-danger">CO MARCA .</span>
                     </h4>
                   </SectionTitleLeft>
-                  <Link to="#" className="mt-3 h6 text-primary">
+                  <Link to="/" className="mt-3 h6 text-danger">
                     Find Out More <i className="uil uil-angle-right-b align-middle"></i>
                   </Link>
                 </div>
@@ -193,11 +193,11 @@ class HowItWorks extends Component {
                           </Col>
                           <Col lg="12" className="mt-2 mb-0">
                             <Button
-                              color="primary"
+                              color="danger"
                               type="submit"
                               className="w-100"
                             >
-                              Download
+                              Enviar 
                             </Button>
                           </Col>
                         </Row>
